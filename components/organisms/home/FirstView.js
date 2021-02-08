@@ -1,7 +1,13 @@
 import React from "react";
 
 const FirstView = () => {
-  return <div></div>;
+
+  return <div>
+    <style jsx>{`
+
+    `}</style>
+    
+  </div>;
 };
 
 export default FirstView;
