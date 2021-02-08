@@ -7,7 +7,7 @@ const MenuText = ({text, active, href}) => {
             <div style={{
                 fontFamily: active ? "AppleSDGothicNeoEB":'AppleSDGothicNeoL',
                 fontWeight: 600,
-                fontSize:'1.2em',
+                fontSize:'0.9em',
                 letterSpacing:"1px",
                 marginBottom:"0.3em",
                 cursor:'pointer',

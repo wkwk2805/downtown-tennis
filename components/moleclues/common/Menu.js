@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from 'next/router'
 import MenuText from "../../atomics/MenuText";
+import Text from "../../atomics/Text";
 
 const Menu = () => {
   const router = useRouter();
@@ -12,6 +13,8 @@ const Menu = () => {
       <MenuText text={'EVENT'} active={router.pathname == '/event'} href="/event" />
       <MenuText text={'DTCLUB'} active={router.pathname == '/dtclub'} href="/dtclub" />
       <MenuText text={'CONTACT'} active={router.pathname == '/contact'} href="/contact" />
+      <Text text={'DOWNTOWN'} />
+      <Text text={'TENNIS CLUB'}/>
     </div>
   );
 };
