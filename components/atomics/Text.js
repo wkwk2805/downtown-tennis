@@ -5,7 +5,7 @@ const Text = ({ size, weight, family, color, children, style }) => {
     <div
       style={{
         ...style,
-        fontFamily: family || "AppleSDGothicNeoEB",
+        fontFamily: family || "AppleSDGothicNeoL",
         fontWeight: weight || 400,
         fontSize: size || "1rem",
         letterSpacing: "1px",

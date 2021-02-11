@@ -8,10 +8,10 @@ const MenuText = ({ children, active, href }) => {
         className="menu"
         style={{
           fontFamily: active ? "AppleSDGothicNeoEB" : "AppleSDGothicNeoL",
-          fontWeight: 600,
-          fontSize: "1rem",
+          fontWeight: 400,
+          fontSize: "1.2rem",
           letterSpacing: "1px",
-          marginBottom: "0.3rem",
+          marginBottom: "1rem",
           cursor: "pointer",
           paddingBottom: "10px",
         }}

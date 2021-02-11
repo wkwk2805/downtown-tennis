@@ -6,6 +6,7 @@ const SecondView = () => {
     <div
       style={{
         display: "flex",
+        margin: "2rem 0",
       }}
     >
       <div
@@ -18,7 +19,7 @@ const SecondView = () => {
           flexDirection: "column",
         }}
       >
-        <Text weight="600" size="2rem">
+        <Text size="2rem" family="AppleSDGothicNeoEB">
           ABOUT
         </Text>
         <Text style={{ margin: "1rem 0" }} size="1.5rem">
@@ -40,7 +41,7 @@ const SecondView = () => {
           width: "100%",
           background: 'url("/images/Tennis2.png") no-repeat',
           height: "100vh",
-          backgroundSize: "100% 100%",
+          backgroundSize: "100%",
         }}
       ></div>
     </div>

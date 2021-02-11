@@ -19,7 +19,6 @@ const FourthView = () => {
       <img src="/logos/insta-logo.png" alt="" />
       <Text size="1.2rem">@DT_TENNISCLUB</Text>
       <Cards />
-      <Division />
       <Notice />
     </div>
   );

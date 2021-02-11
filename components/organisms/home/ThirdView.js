@@ -6,6 +6,7 @@ const ThirdView = () => {
     <div
       style={{
         display: "flex",
+        margin: "2rem 0",
       }}
     >
       <div
@@ -14,7 +15,7 @@ const ThirdView = () => {
           width: "100%",
           background: 'url("/images/Tennis3.png") no-repeat',
           height: "100vh",
-          backgroundSize: "100% 100%",
+          backgroundSize: "100%",
         }}
       ></div>
       <div
