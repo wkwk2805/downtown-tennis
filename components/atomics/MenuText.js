@@ -5,12 +5,13 @@ const MenuText = ({ children, active, href }) => {
   return (
     <Link href={href || "home"}>
       <div
+        className="menu"
         style={{
           fontFamily: active ? "AppleSDGothicNeoEB" : "AppleSDGothicNeoL",
           fontWeight: 600,
-          fontSize: "0.9em",
+          fontSize: "1rem",
           letterSpacing: "1px",
-          marginBottom: "0.3em",
+          marginBottom: "0.3rem",
           cursor: "pointer",
           paddingBottom: "10px",
         }}

@@ -1,6 +1,4 @@
 import React from "react";
-import Logo from "../../atomics/Logo";
-import LogoText from "../../atomics/LogoText";
 import Text from "../../atomics/Text";
 
 const Header = () => {
@@ -12,13 +10,15 @@ const Header = () => {
         display: "flex",
         width: "100%",
         justifyContent: "flex-end",
+        alignItems: "center",
+        height: "7rem",
       }}
     >
-      <div style={{ padding: "10px" }}>
-        <Text size="1.5em">DOWNTOWN</Text>
+      <div style={{ padding: "1rem 0.5rem 0 0.5rem" }}>
+        <Text size="1.5rem">DOWNTOWN</Text>
         <Text family="AppleSDGothicNeoM">TENNIS CLUB</Text>
       </div>
-      <div style={{ padding: "15px", display: "flex" }}>
+      <div style={{ padding: "0rem 1rem", display: "flex" }}>
         <Text family="AppleSDGothicNeoM" style={{ paddingRight: "10px" }}>
           LOGIN
         </Text>

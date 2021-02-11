@@ -7,7 +7,7 @@ const Text = ({ size, weight, family, color, children, style }) => {
         ...style,
         fontFamily: family || "AppleSDGothicNeoEB",
         fontWeight: weight || 400,
-        fontSize: size || "1em",
+        fontSize: size || "1rem",
         letterSpacing: "1px",
         color: color || "black",
       }}

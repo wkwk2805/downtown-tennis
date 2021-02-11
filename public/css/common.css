@@ -18,8 +18,34 @@
   font-family: "AppleSDGothicNeoM";
   src: url("../fonts/AppleSDGothicNeoM.ttf") format("truetype");
 }
+
+html {
+  font-size: 16px;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
+}
+
+@media (min-width: 480px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 680px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+.menu:hover {
+  font-family: AppleSDGothicNeoEB !important;
 }
