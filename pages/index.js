@@ -1,18 +1,8 @@
 import React from "react";
-import { useRouter } from "next/router";
+import Home from "../components/templates/Home";
 
 const index = () => {
-  const router = useRouter();
-  const click = () => {
-    router.push("/home");
-  };
-  return (
-    <>
-      <div>
-        <button onClick={click}>on</button>
-      </div>
-    </>
-  );
+  return <Home/>
 };
 
 export default index;

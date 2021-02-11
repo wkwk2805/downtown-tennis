@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Logo = ({url}) => {
-    return <img src={url || './logos/logo.png'} style={{width:'5vw', height:'5vw'}}/>
-}
+const Logo = ({ url }) => {
+  return (
+    <img
+      src={url || "./logos/logo.png"}
+      style={{ width: "5em", height: "5em", padding: "10px" }}
+    />
+  );
+};
 
-export default Logo
+export default Logo;

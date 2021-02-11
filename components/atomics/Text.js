@@ -1,17 +1,20 @@
-import React from 'react'
+import React from "react";
 
-const Text = ({text, size, weight, family, color}) => {
-    return (
-        <div style={{
-            fontFamily: family || "AppleSDGothicNeoEB",
-            fontWeight: weight || 400,
-            fontSize: size || '1em',
-            letterSpacing:"1px",
-            color: color || 'black'
-        }}>
-            {text}
-        </div>
-    )
-}
+const Text = ({ size, weight, family, color, children, style }) => {
+  return (
+    <div
+      style={{
+        ...style,
+        fontFamily: family || "AppleSDGothicNeoEB",
+        fontWeight: weight || 400,
+        fontSize: size || "1em",
+        letterSpacing: "1px",
+        color: color || "black",
+      }}
+    >
+      {children}
+    </div>
+  );
+};
 
-export default Text
+export default Text;
