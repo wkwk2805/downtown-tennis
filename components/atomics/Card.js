@@ -6,8 +6,8 @@ const Card = ({ url }) => {
       style={{
         flexGrow: 1,
         background: `url("${url}") no-repeat`,
-        height: "25vh",
-        width: "25vh",
+        height: "25vw",
+        width: "25vw",
         margin: "1rem",
         backgroundSize: "100% 100%",
       }}

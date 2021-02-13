@@ -1,31 +1,38 @@
 import React from "react";
-import Text from "../../atomics/Text";
+import NormalText from "../../atomics/NormalText";
 
 const Header = () => {
   return (
     <div
       style={{
         position: "fixed",
-        right: "3rem",
+        top: "2.5rem",
+        right: "5.2rem",
         display: "flex",
         width: "100%",
         justifyContent: "flex-end",
-        alignItems: "center",
+        alignItems: "flex-start",
         height: "7rem",
       }}
     >
-      <div style={{ padding: "1rem 0.5rem 0 0.5rem" }}>
-        <Text size="1.5rem">DOWNTOWN</Text>
-        <Text family="AppleSDGothicNeoM">TENNIS CLUB</Text>
+      <div style={{ marginRight: "7.5rem" }}>
+        <NormalText
+          style={{
+            fontSize: "1.2em",
+            marginRight: "2rem",
+            fontWeight: "bold",
+          }}
+        >
+          DOWNTOWN
+        </NormalText>
+        <NormalText>TENNIS CLUB</NormalText>
       </div>
-      <div style={{ padding: "0rem 1rem", display: "flex" }}>
-        <Text family="AppleSDGothicNeoM" style={{ paddingRight: "10px" }}>
-          LOGIN
-        </Text>
-        <Text>|</Text>
-        <Text family="AppleSDGothicNeoM" style={{ paddingLeft: "10px" }}>
-          JOIN
-        </Text>
+      <div style={{ display: "flex" }}>
+        <NormalText style={{ paddingRight: "1rem" }}>LOGIN</NormalText>
+        <NormalText>|</NormalText>
+        <NormalText style={{ padding: "0 1rem" }}>MY PAGE</NormalText>
+        <NormalText>|</NormalText>
+        <NormalText style={{ paddingLeft: "1rem" }}>JOIN</NormalText>
       </div>
     </div>
   );

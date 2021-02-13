@@ -20,32 +20,43 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 12px;
 }
+
 body {
+  font-family: "Noto Sans KR";
+  letter-spacing: 0.05em;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
 }
-
-@media (min-width: 480px) {
-  html {
-    font-size: 6px;
-  }
+.menu:hover {
+  font-weight: bold;
 }
 
-@media (min-width: 680px) {
+@media (max-width: 960px) {
   html {
-    font-size: 8px;
+    font-size: 10px;
   }
-}
-
-@media (min-width: 960px) {
-  html {
+  body {
     font-size: 12px;
   }
 }
 
-.menu:hover {
-  font-family: AppleSDGothicNeoEB !important;
+@media (max-width: 680px) {
+  html {
+    font-size: 8px;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 6px;
+  }
+  body {
+    font-size: 12px;
+  }
 }

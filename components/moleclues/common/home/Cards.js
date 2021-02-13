@@ -10,6 +10,7 @@ const Cards = () => {
         width: "70%",
         alignItems: "center",
         justifyContent: "center",
+        overflow: "scroll",
       }}
     >
       <div

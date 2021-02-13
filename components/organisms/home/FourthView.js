@@ -1,6 +1,5 @@
 import React from "react";
-import Division from "../../atomics/Division";
-import Text from "../../atomics/Text";
+import NormalText from "../../atomics/NormalText";
 import Cards from "../../moleclues/common/home/Cards";
 import Notice from "../../moleclues/common/home/Notice";
 
@@ -17,9 +16,9 @@ const FourthView = () => {
       }}
     >
       <img src="/logos/insta-logo.png" alt="" />
-      <Text size="1.2rem">@DT_TENNISCLUB</Text>
+      <NormalText size="1.2rem">@DT_TENNISCLUB</NormalText>
       <Cards />
-      <Notice />
+      <Notice style={{ marginTop: "1rem" }} />
     </div>
   );
 };

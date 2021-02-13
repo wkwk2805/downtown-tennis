@@ -1,7 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
 import MenuText from "../../atomics/MenuText";
-import Text from "../../atomics/Text";
 import Logo from "../../atomics/Logo";
 
 const SideMenu = () => {
@@ -12,8 +11,8 @@ const SideMenu = () => {
         style={{
           position: "fixed",
           zIndex: 1,
-          left: "5rem",
-          top: "2rem",
+          left: "5.3rem",
+          top: "2.5rem",
         }}
       >
         <Logo />

@@ -1,5 +1,5 @@
 import React from "react";
-import Text from "../../atomics/Text";
+import NormalText from "../../atomics/NormalText";
 
 const SecondView = () => {
   return (
@@ -19,13 +19,11 @@ const SecondView = () => {
           flexDirection: "column",
         }}
       >
-        <Text size="2rem" family="AppleSDGothicNeoEB">
-          ABOUT
-        </Text>
-        <Text style={{ margin: "1rem 0" }} size="1.5rem">
+        <NormalText>ABOUT</NormalText>
+        <NormalText style={{ margin: "1rem 0" }}>
           함께 하는 테니스, 다운타운 테니스 클럽
-        </Text>
-        <Text
+        </NormalText>
+        <NormalText
           style={{
             border: "2px solid",
             margin: "1rem 0",
@@ -33,7 +31,7 @@ const SecondView = () => {
           }}
         >
           브랜드 스토리 더보기
-        </Text>
+        </NormalText>
       </div>
       <div
         style={{

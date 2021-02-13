@@ -2,7 +2,7 @@ import React from "react";
 import Home from "../components/templates/Home";
 
 const index = () => {
-  return <Home/>
+  return <Home />;
 };
 
 export default index;
