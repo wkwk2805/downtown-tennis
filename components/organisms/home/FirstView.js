@@ -17,13 +17,18 @@ const FirstView = () => {
           flexDirection: "column",
           alignItems: "flex-start",
           justifyContent: "space-around",
+          padding: "5rem 5rem",
         }}
       >
         <LogoText />
-        <NormalText>함께 하는 테니스, 다운타운 테니스 클럽</NormalText>
+        <NormalText
+          style={{ margin: "5rem 0", fontSize: "2.5em", color: "white" }}
+        >
+          함께 하는 테니스, 다운타운 테니스 클럽
+        </NormalText>
         <NormalText
           style={{
-            border: "3px solid white",
+            border: "0.2rem solid white",
             display: "inline-block",
             padding: "1rem ",
             color: "white",

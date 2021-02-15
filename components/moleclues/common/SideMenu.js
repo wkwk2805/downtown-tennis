@@ -12,7 +12,6 @@ const SideMenu = () => {
           position: "fixed",
           zIndex: 1,
           left: "5.3rem",
-          top: "2.5rem",
         }}
       >
         <Logo />

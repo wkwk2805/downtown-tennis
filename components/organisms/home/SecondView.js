@@ -6,7 +6,7 @@ const SecondView = () => {
     <div
       style={{
         display: "flex",
-        margin: "2rem 0",
+        margin: "5rem 0",
       }}
     >
       <div
@@ -19,15 +19,17 @@ const SecondView = () => {
           flexDirection: "column",
         }}
       >
-        <NormalText>ABOUT</NormalText>
+        <NormalText style={{ fontWeight: "bold", fontSize: "1.5em" }}>
+          ABOUT
+        </NormalText>
         <NormalText style={{ margin: "1rem 0" }}>
           함께 하는 테니스, 다운타운 테니스 클럽
         </NormalText>
         <NormalText
           style={{
-            border: "2px solid",
-            margin: "1rem 0",
-            padding: "0.5rem 3rem",
+            border: "1px solid",
+            margin: "2rem 0",
+            padding: "0.8rem 4rem",
           }}
         >
           브랜드 스토리 더보기

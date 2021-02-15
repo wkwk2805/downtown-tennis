@@ -7,10 +7,9 @@ const Cards = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-        width: "70%",
         alignItems: "center",
         justifyContent: "center",
-        overflow: "scroll",
+        width: "70%",
       }}
     >
       <div

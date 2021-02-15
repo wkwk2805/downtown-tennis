@@ -28,15 +28,17 @@ const ThirdView = () => {
           flexDirection: "column",
         }}
       >
-        <NormalText>PROGRAM</NormalText>
+        <NormalText style={{ fontWeight: "bold", fontSize: "1.5em" }}>
+          PROGRAM
+        </NormalText>
         <NormalText style={{ margin: "1rem 0" }}>
           함께 하는 테니스, 다운타운 테니스 클럽
         </NormalText>
         <NormalText
           style={{
-            border: "2px solid",
-            margin: "1rem 0",
-            padding: "0.5rem 3rem",
+            border: "1px solid",
+            margin: "2rem 0",
+            padding: "0.8rem 4rem",
           }}
         >
           프로그램 더보기

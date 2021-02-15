@@ -17,7 +17,7 @@ const Home = () => {
       {size.width > 480 && <SideMenu />}
       <div
         style={{
-          padding: size.width > 480 ? "7rem 9rem 0 15rem" : "10rem 0 0 0",
+          padding: size.width > 480 ? "10rem 10rem 0 15rem" : "10rem 0 0 0",
         }}
       >
         <FirstView />

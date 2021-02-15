@@ -6,8 +6,8 @@ const Header = () => {
     <div
       style={{
         position: "fixed",
-        top: "2.5rem",
-        right: "5.2rem",
+        top: "3rem",
+        right: "10rem",
         display: "flex",
         width: "100%",
         justifyContent: "flex-end",
