@@ -18,6 +18,9 @@ const SideMenu = () => {
         <MenuText active={router.pathname == "/about"} href="/about">
           ABOUT
         </MenuText>
+        <MenuText active={router.pathname == "/guide"} href="/guide">
+          GUIDE
+        </MenuText>
         <MenuText active={router.pathname == "/program"} href="/program">
           PROGRAM
         </MenuText>

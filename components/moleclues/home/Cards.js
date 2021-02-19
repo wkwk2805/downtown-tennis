@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../../atomics/Card";
+import Card from "../../atomics/Card";
 
 const Cards = () => {
   return (

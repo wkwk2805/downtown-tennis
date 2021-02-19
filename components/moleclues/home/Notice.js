@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  address,
-  ceo,
-  copyRight,
-  email,
-  tell,
-} from "../../../../config/Strings";
-import NormalText from "../../../atomics/NormalText";
+import { address, ceo, copyRight, email, tell } from "../../../config/Strings";
+import NormalText from "../../atomics/NormalText";
 
 const Notice = (props) => {
   return (

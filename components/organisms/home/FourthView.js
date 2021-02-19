@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../../atomics/Logo";
 import NormalText from "../../atomics/NormalText";
-import Cards from "../../moleclues/common/home/Cards";
-import Notice from "../../moleclues/common/home/Notice";
+import Cards from "../../moleclues/home/Cards";
+import Notice from "../../moleclues/home/Notice";
 
 const FourthView = () => {
   return (

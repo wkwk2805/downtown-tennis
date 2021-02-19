@@ -11,6 +11,7 @@ const MenuText = ({ children, active, href }) => {
           marginBottom: "1.7rem",
           fontWeight: active ? "bold" : 400,
           fontSize: active ? "1.2em" : "1em",
+          textDecoration: active ? "underline" : "none",
           cursor: "pointer",
         }}
       >
